@@ -3,7 +3,19 @@ A simple Powershell module to do some basic AWS tassks
 
 # Sample tests
 PowerShell Integrated Console
+PS C:\Projects\kAWSinfoPowershell> .\runtest_Get-kEC2AllRegionInstanceStat.ps1
+Test AWS commercial
 
+Profile            : test1
+Region             : us-east-1
+InstanceID         : i-0b9b9f71bddfee49
+LastLaunchTime     : 1/28/2019 8:31:21 AM
+CPUmetricAvg       :
+CPUmetricStartTime :
+State              : stopped
+
+
+######
 PS C:\Projects\kAWSinfoPowershell> .\runtest_Get-kS3bucketList.ps1
 
 Test AWS commercial
