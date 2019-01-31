@@ -39,7 +39,7 @@ PasswordLastUsed : 1/28/2019 4:51:27 PM
 #####
 ```
 PS C:\Projects\kAWSinfoPowershell> cd .\Tests
-PS C:\Code\Projects\kAWSinfoPowershell\Tests> Invoke-Pester
+PS C:\Projects\kAWSinfoPowershell\Tests> Invoke-Pester
 Executing all tests in '.'
 
 Executing script C:\Projects\kAWSinfoPowershell\Tests\Get-kS3BucketList.Tests.ps1
