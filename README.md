@@ -2,6 +2,7 @@
 A simple Powershell module to do some basic AWS tassks
 
 # Sample tests
+```
 PowerShell Integrated Console
 PS C:\Projects\kAWSinfoPowershell> .\runtest_Get-kEC2AllRegionInstanceStat.ps1
 Test AWS commercial
@@ -14,8 +15,9 @@ CPUmetricAvg       :
 CPUmetricStartTime :
 State              : stopped
 
-
+```
 ######
+```
 PS C:\Projects\kAWSinfoPowershell> .\runtest_Get-kS3bucketList.ps1
 
 Test AWS commercial
@@ -23,9 +25,9 @@ Test AWS commercial
 CreationDate : 1/25/2019 2:10:08 PM
 BucketName   : cf-templates-1vwwjztlz5ihr-us-east-1
 
-
+```
 #####
-
+```
 PS C:\Projects\kAWSinfoPowershell> .\runtest_Get-kUserList.ps1
 
 Test AWS commercial
@@ -33,10 +35,11 @@ Test AWS commercial
 UserName         : Administrator
 CreateDate       : 11/26/2018 2:05:26 PM
 PasswordLastUsed : 1/28/2019 4:51:27 PM
-
+```
 #####
+```
 PS C:\Projects\kAWSinfoPowershell> cd .\Tests
-PS C:\Code\Projects\kAWSinfoPowershell\Tests> Invoke-Pester
+PS C:\Projects\kAWSinfoPowershell\Tests> Invoke-Pester
 Executing all tests in '.'
 
 Executing script C:\Projects\kAWSinfoPowershell\Tests\Get-kS3BucketList.Tests.ps1
@@ -63,3 +66,4 @@ Executing script C:\Projects\kAWSinfoPowershell\Tests\Get-kUserList.Tests.ps1
 Tests completed in 17.06s
 Tests Passed: 6, Failed: 0, Skipped: 0, Pending: 0, Inconclusive: 0
 
+```
