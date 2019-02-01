@@ -37,7 +37,7 @@ function Get-kS3BucketStat {
          -utcStartTime $UTCStartTime -utcEndTime $UTCEndTime `
          -Dimension @(@{Name = "BucketName"; Value = $BucketName},@{Name = "StorageType"; Value = "StandardStorage"})
     
-    $output=@{
+    $output=[PSCustomObject]@{
         Profile=$ProfileName;
         Region=$RegionName;
         Bucket=$BucketName;
@@ -46,8 +46,7 @@ function Get-kS3BucketStat {
         UTCStartime=$UTCStartTime.DateTime;
         UTCEndTime=$UTCEndTime.DateTime
         }
-    $outobj=New-Object psobject -Property $output
 
-    $outobj
+    write-output $output
 }
 
