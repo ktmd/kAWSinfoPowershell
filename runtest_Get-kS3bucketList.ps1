@@ -1,3 +1,6 @@
+#import-module -Name AWSPowerShell
+import-module -Name AWSPowerShell.NetCore
+
 import-module .\kAWSinfo -force
 get-command -module kAWSinfo  
 
