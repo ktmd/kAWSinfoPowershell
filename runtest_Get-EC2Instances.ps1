@@ -28,14 +28,6 @@ foreach ($r_id in $ec2reservations) {
 }
 
 
-
-
-ReservationId   : r-b70a0ef1
-OwnerId         : 123456789012
-RequesterId     :
-Groups          : {myPSSecurityGroup}
-GroupName       : {myPSSecurityGroup}
-Instances       : {}
 #
 $ec2instanceid="i-0caf5479efec60a50"
 $ec2dns="ec2-54-85-220-190.compute-1.amazonaws.com"
