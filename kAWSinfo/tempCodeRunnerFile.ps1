@@ -1,0 +1,1 @@
+Write-Error -Message "Failed to import function $($import.fullname): $_"
